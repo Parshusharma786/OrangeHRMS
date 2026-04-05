@@ -1,0 +1,7 @@
+stepdefinitions\LoginSteps.class
+com\orangehrm\stepdefinitions\DashboardSteps.class
+stepdefinitions\Hooks.class
+com\orangehrm\runners\TestRunner.class
+runners\TestRunner.class
+com\orangehrm\stepdefinitions\LoginSteps.class
+com\orangehrm\hooks\Hooks.class
