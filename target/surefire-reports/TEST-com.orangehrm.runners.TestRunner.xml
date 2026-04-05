@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.orangehrm.runners.TestRunner" time="150.916" tests="51" errors="8" skipped="7" failures="8">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.orangehrm.runners.TestRunner" time="186.363" tests="51" errors="8" skipped="7" failures="8">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\parsh\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\parsh\AppData\Local\Temp\surefire2394947625760098731\surefirebooter-20260404221913423_3.jar C:\Users\parsh\AppData\Local\Temp\surefire2394947625760098731 2026-04-04T22-19-13_085-jvmRun1 surefire-20260404221913423_1tmp surefire_0-20260404221913423_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\parsh\AppData\Local\Temp\surefire14901227378009996653\surefirebooter-20260405215924028_3.jar C:\Users\parsh\AppData\Local\Temp\surefire14901227378009996653 2026-04-05T21-59-23_671-jvmRun1 surefire-20260405215924028_1tmp surefire_0-20260405215924028_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="G:\New folder\Workspace\OrangeHRMS\target\test-classes;G:\New folder\Workspace\OrangeHRMS\target\classes;C:\Users\parsh\.m2\repository\io\cucumber\cucumber-core\7.28.2\cucumber-core-7.28.2.jar;C:\Users\parsh\.m2\repository\io\cucumber\cucumber-gherkin\7.28.2\cucumber-gherkin-7.28.2.jar;C:\Users\parsh\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.28.2\cucumber-gherkin-messages-7.28.2.jar;C:\Users\parsh\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\parsh\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\parsh\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\parsh\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\parsh\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\parsh\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\parsh\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\parsh\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\parsh\.m2\repository\io\cucumber\cucumber-json-formatter\0.1.3\cucumber-json-formatter-0.1.3.jar;C:\Users\parsh\.m2\repository\com\networknt\json-schema-validator\1.5.8\json-schema-validator-1.5.8.jar;C:\Users\parsh\.m2\repository\com\ethlo\time\itu\1.10.3\itu-1.10.3.jar;C:\Users\parsh\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.3\jackson-dataformat-yaml-2.18.3.jar;C:\Users\parsh\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\parsh\.m2\repository\io\cucumber\datatable\7.28.2\datatable-7.28.2.jar;C:\Users\parsh\.m2\repository\io\cucumber\cucumber-plugin\7.28.2\cucumber-plugin-7.28.2.jar;C:\Users\parsh\.m2\repository\io\cucumber\docstring\7.28.2\docstring-7.28.2.jar;C:\Users\parsh\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\parsh\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\parsh\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\parsh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\parsh\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\parsh\.m2\repository\io\cucumber\cucumber-java\7.28.2\cucumber-java-7.28.2.jar;C:\Users\parsh\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\parsh\.m2\repository\io\cucumber\cucumber-junit\7.28.2\cucumber-junit-7.28.2.jar;C:\Users\parsh\.m2\repository\net\masterthought\cucumber-reporting\5.10.1\cucumber-reporting-5.10.1.jar;C:\Users\parsh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\parsh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\parsh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\parsh\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar;C:\Users\parsh\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\Users\parsh\.m2\repository\joda-time\joda-time\2.13.1\joda-time-2.13.1.jar;C:\Users\parsh\.m2\repository\org\apache\commons\commons-configuration2\2.12.0\commons-configuration2-2.12.0.jar;C:\Users\parsh\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\parsh\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\parsh\.m2\repository\org\apache\commons\commons-text\1.14.0\commons-text-1.14.0.jar;C:\Users\parsh\.m2\repository\org\jsoup\jsoup\1.20.1\jsoup-1.20.1.jar;C:\Users\parsh\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\parsh\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\parsh\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\parsh\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\parsh\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.17\jcl-over-slf4j-2.0.17.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\parsh\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\parsh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\parsh\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\parsh\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\parsh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\parsh\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\parsh\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\parsh\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\parsh\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\parsh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\parsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\parsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\parsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\parsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\parsh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\parsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\parsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\parsh\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\parsh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\parsh\.m2\repository\io\github\bonigarcia\webdrivermanager\6.2.0\webdrivermanager-6.2.0.jar;C:\Users\parsh\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\parsh\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\parsh\.m2\repository\com\github\docker-java\docker-java\3.5.3\docker-java-3.5.3.jar;C:\Users\parsh\.m2\repository\com\github\docker-java\docker-java-core\3.5.3\docker-java-core-3.5.3.jar;C:\Users\parsh\.m2\repository\com\github\docker-java\docker-java-api\3.5.3\docker-java-api-3.5.3.jar;C:\Users\parsh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.3\docker-java-transport-httpclient5-3.5.3.jar;C:\Users\parsh\.m2\repository\com\github\docker-java\docker-java-transport\3.5.3\docker-java-transport-3.5.3.jar;C:\Users\parsh\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\parsh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\parsh\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\parsh\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\parsh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\parsh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\parsh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\parsh\.m2\repository\net\java\dev\jna\jna-platform\5.17.0\jna-platform-5.17.0.jar;C:\Users\parsh\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\parsh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\parsh\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\parsh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\parsh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\parsh\AppData\Local\Temp\surefire2394947625760098731\surefirebooter-20260404221913423_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\parsh\AppData\Local\Temp\surefire14901227378009996653\surefirebooter-20260405215924028_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="User is logged in to OrangeHRM application" classname="Verify user can access dashboard after login" time="6.281">
+  <testcase name="User is logged in to OrangeHRM application" classname="Verify user can access dashboard after login" time="11.286">
     <system-out><![CDATA[
 @smoke @dashboard
 Scenario: Verify user can access dashboard after login # file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/Dashboard.feature:7
@@ -67,15 +67,15 @@ Browser initialized successfully
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Apr 04, 2026 10:19:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 05, 2026 9:59:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="Dashboard title should be displayed" classname="Verify user can access dashboard after login" time="0.102">
+  <testcase name="Dashboard title should be displayed" classname="Verify user can access dashboard after login" time="0.972">
     <system-out><![CDATA[  âœ” Given User is logged in to OrangeHRM application   # com.orangehrm.stepdefinitions.DashboardSteps.userIsLoggedIn()
 ]]></system-out>
   </testcase>
-  <testcase name="User is logged in to OrangeHRM application" classname="Verify user can navigate to Admin module" time="5.553">
+  <testcase name="User is logged in to OrangeHRM application" classname="Verify user can navigate to Admin module" time="6.696">
     <system-out><![CDATA[  âœ” Then Dashboard title should be displayed           # com.orangehrm.stepdefinitions.DashboardSteps.verifyDashboardTitle()
 ======== Ending Test Scenario ========
 Browser closed successfully
@@ -85,19 +85,19 @@ Scenario: Verify user can navigate to Admin module   # file:///G:/New%20folder/W
 ======== Starting Test Scenario ========
 Browser initialized successfully
 ]]></system-out>
-    <system-err><![CDATA[Apr 04, 2026 10:19:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 05, 2026 10:00:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="User navigates to Admin module" classname="Verify user can navigate to Admin module" time="15.252">
-    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Admin&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58800}, goog:processID: 77596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58800/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a6d0faa540d35407b49bf6031b019c9f" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="User navigates to Admin module" classname="Verify user can navigate to Admin module" time="16.265">
+    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Admin&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61666}, goog:processID: 96856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61666/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8cac6270f56638cd3bdbaf48c226bdc8" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Admin')]"}.
 (tried for 15 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58800}, goog:processID: 77596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58800/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a6d0faa540d35407b49bf6031b019c9f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61666}, goog:processID: 96856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61666/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cac6270f56638cd3bdbaf48c226bdc8
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at com.orangehrm.pages.BasePage.waitForElementToBeClickable(BasePage.java:39)
@@ -118,8 +118,8 @@ Session ID: a6d0faa540d35407b49bf6031b019c9f
         Build info: version: '4.41.0', revision: '9fc754f'
         System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
         Driver info: org.openqa.selenium.chrome.ChromeDriver
-        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58800}, goog:processID: 77596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58800/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-        Session ID: a6d0faa540d35407b49bf6031b019c9f
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61666}, goog:processID: 96856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61666/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: 8cac6270f56638cd3bdbaf48c226bdc8
         	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
         	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
         	at com.orangehrm.pages.BasePage.waitForElementToBeClickable(BasePage.java:39)
@@ -129,15 +129,15 @@ Session ID: a6d0faa540d35407b49bf6031b019c9f
         	at âœ½.User navigates to Admin module(file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/Dashboard.feature:14)
 ]]></system-out>
   </testcase>
-  <testcase name="Verify user can navigate to Admin module" classname="OrangeHRM Dashboard Tests" time="0.446">
-    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Admin&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58800}, goog:processID: 77596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58800/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a6d0faa540d35407b49bf6031b019c9f" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="Verify user can navigate to Admin module" classname="OrangeHRM Dashboard Tests" time="0.558">
+    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Admin&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61666}, goog:processID: 96856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61666/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8cac6270f56638cd3bdbaf48c226bdc8" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Admin')]"}.
 (tried for 15 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58800}, goog:processID: 77596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58800/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a6d0faa540d35407b49bf6031b019c9f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61666}, goog:processID: 96856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61666/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cac6270f56638cd3bdbaf48c226bdc8
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at com.orangehrm.pages.BasePage.waitForElementToBeClickable(BasePage.java:39)
@@ -151,15 +151,15 @@ Session ID: a6d0faa540d35407b49bf6031b019c9f
 Browser closed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Verify user can navigate to PIM module" classname="OrangeHRM Dashboard Tests" time="0.489">
-    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;PIM&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63188}, goog:processID: 75772, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63188/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 85d46fae80e7d8663a97564fb5d68809" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="Verify user can navigate to PIM module" classname="OrangeHRM Dashboard Tests" time="0.597">
+    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;PIM&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63102}, goog:processID: 97592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63102/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d80eb89e626a5c73bc995709e4c57cad" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'PIM')]"}.
 (tried for 15 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63188}, goog:processID: 75772, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63188/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 85d46fae80e7d8663a97564fb5d68809
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63102}, goog:processID: 97592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63102/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d80eb89e626a5c73bc995709e4c57cad
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at com.orangehrm.pages.BasePage.waitForElementToBeClickable(BasePage.java:39)
@@ -173,15 +173,15 @@ Session ID: 85d46fae80e7d8663a97564fb5d68809
 Browser closed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Verify user can navigate to Leave module" classname="OrangeHRM Dashboard Tests" time="0.456">
-    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Leave&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60310}, goog:processID: 21664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60310/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ef83574e978fabaac6bba04958bcc263" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="Verify user can navigate to Leave module" classname="OrangeHRM Dashboard Tests" time="0.504">
+    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Leave&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62794}, goog:processID: 90816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62794/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fda10769ec3bb6e11eb8c130eb404a0e" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Leave')]"}.
 (tried for 15 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60310}, goog:processID: 21664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60310/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ef83574e978fabaac6bba04958bcc263
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62794}, goog:processID: 90816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62794/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fda10769ec3bb6e11eb8c130eb404a0e
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at com.orangehrm.pages.BasePage.waitForElementToBeClickable(BasePage.java:39)
@@ -195,15 +195,15 @@ Session ID: ef83574e978fabaac6bba04958bcc263
 Browser closed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Verify user can navigate to My Info module" classname="OrangeHRM Dashboard Tests" time="0.51">
-    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;My Info&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56029}, goog:processID: 80532, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56029/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a787ccf799a0fef23b3346661a522d6a" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="Verify user can navigate to My Info module" classname="OrangeHRM Dashboard Tests" time="0.606">
+    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;My Info&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64927}, goog:processID: 64760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64927/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 340d530c626bf2b640b2e4ed39866889" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'My Info')]"}.
 (tried for 15 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56029}, goog:processID: 80532, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56029/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a787ccf799a0fef23b3346661a522d6a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64927}, goog:processID: 64760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64927/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 340d530c626bf2b640b2e4ed39866889
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at com.orangehrm.pages.BasePage.waitForElementToBeClickable(BasePage.java:39)
@@ -217,26 +217,26 @@ Session ID: a787ccf799a0fef23b3346661a522d6a
 Browser closed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="User is logged in to OrangeHRM application" classname="Verify user can navigate to PIM module" time="5.523">
+  <testcase name="User is logged in to OrangeHRM application" classname="Verify user can navigate to PIM module" time="5.574">
     <system-out><![CDATA[
 @regression @dashboard @navigation
 Scenario: Verify user can navigate to PIM module     # file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/Dashboard.feature:18
 ======== Starting Test Scenario ========
 Browser initialized successfully
 ]]></system-out>
-    <system-err><![CDATA[Apr 04, 2026 10:19:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 05, 2026 10:00:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="User navigates to PIM module" classname="Verify user can navigate to PIM module" time="15.161">
-    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;PIM&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63188}, goog:processID: 75772, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63188/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 85d46fae80e7d8663a97564fb5d68809" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="User navigates to PIM module" classname="Verify user can navigate to PIM module" time="15.209">
+    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;PIM&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63102}, goog:processID: 97592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63102/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d80eb89e626a5c73bc995709e4c57cad" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'PIM')]"}.
 (tried for 15 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63188}, goog:processID: 75772, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63188/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 85d46fae80e7d8663a97564fb5d68809
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63102}, goog:processID: 97592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63102/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d80eb89e626a5c73bc995709e4c57cad
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at com.orangehrm.pages.BasePage.waitForElementToBeClickable(BasePage.java:39)
@@ -257,8 +257,8 @@ Session ID: 85d46fae80e7d8663a97564fb5d68809
         Build info: version: '4.41.0', revision: '9fc754f'
         System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
         Driver info: org.openqa.selenium.chrome.ChromeDriver
-        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63188}, goog:processID: 75772, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63188/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-        Session ID: 85d46fae80e7d8663a97564fb5d68809
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63102}, goog:processID: 97592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63102/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: d80eb89e626a5c73bc995709e4c57cad
         	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
         	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
         	at com.orangehrm.pages.BasePage.waitForElementToBeClickable(BasePage.java:39)
@@ -268,26 +268,26 @@ Session ID: 85d46fae80e7d8663a97564fb5d68809
         	at âœ½.User navigates to PIM module(file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/Dashboard.feature:20)
 ]]></system-out>
   </testcase>
-  <testcase name="User is logged in to OrangeHRM application" classname="Verify user can navigate to Leave module" time="5.395">
+  <testcase name="User is logged in to OrangeHRM application" classname="Verify user can navigate to Leave module" time="6.253">
     <system-out><![CDATA[
 @regression @dashboard @navigation
 Scenario: Verify user can navigate to Leave module   # file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/Dashboard.feature:24
 ======== Starting Test Scenario ========
 Browser initialized successfully
 ]]></system-out>
-    <system-err><![CDATA[Apr 04, 2026 10:20:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 05, 2026 10:00:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="User navigates to Leave module" classname="Verify user can navigate to Leave module" time="15.172">
-    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Leave&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60310}, goog:processID: 21664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60310/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ef83574e978fabaac6bba04958bcc263" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="User navigates to Leave module" classname="Verify user can navigate to Leave module" time="15.514">
+    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Leave&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62794}, goog:processID: 90816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62794/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fda10769ec3bb6e11eb8c130eb404a0e" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Leave')]"}.
 (tried for 15 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60310}, goog:processID: 21664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60310/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ef83574e978fabaac6bba04958bcc263
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62794}, goog:processID: 90816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62794/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fda10769ec3bb6e11eb8c130eb404a0e
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at com.orangehrm.pages.BasePage.waitForElementToBeClickable(BasePage.java:39)
@@ -308,8 +308,8 @@ Session ID: ef83574e978fabaac6bba04958bcc263
         Build info: version: '4.41.0', revision: '9fc754f'
         System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
         Driver info: org.openqa.selenium.chrome.ChromeDriver
-        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60310}, goog:processID: 21664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60310/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-        Session ID: ef83574e978fabaac6bba04958bcc263
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62794}, goog:processID: 90816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62794/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: fda10769ec3bb6e11eb8c130eb404a0e
         	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
         	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
         	at com.orangehrm.pages.BasePage.waitForElementToBeClickable(BasePage.java:39)
@@ -319,26 +319,26 @@ Session ID: ef83574e978fabaac6bba04958bcc263
         	at âœ½.User navigates to Leave module(file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/Dashboard.feature:26)
 ]]></system-out>
   </testcase>
-  <testcase name="User is logged in to OrangeHRM application" classname="Verify user can navigate to My Info module" time="5.133">
+  <testcase name="User is logged in to OrangeHRM application" classname="Verify user can navigate to My Info module" time="5.45">
     <system-out><![CDATA[
 @regression @dashboard @navigation
 Scenario: Verify user can navigate to My Info module # file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/Dashboard.feature:30
 ======== Starting Test Scenario ========
 Browser initialized successfully
 ]]></system-out>
-    <system-err><![CDATA[Apr 04, 2026 10:20:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 05, 2026 10:01:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="User navigates to My Info module" classname="Verify user can navigate to My Info module" time="15.118">
-    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;My Info&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56029}, goog:processID: 80532, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56029/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a787ccf799a0fef23b3346661a522d6a" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+  <testcase name="User navigates to My Info module" classname="Verify user can navigate to My Info module" time="15.194">
+    <error message="Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;My Info&apos;)]&quot;}.&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64927}, goog:processID: 64760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64927/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 340d530c626bf2b640b2e4ed39866889" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'My Info')]"}.
 (tried for 15 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56029}, goog:processID: 80532, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56029/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a787ccf799a0fef23b3346661a522d6a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64927}, goog:processID: 64760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64927/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 340d530c626bf2b640b2e4ed39866889
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
 	at com.orangehrm.pages.BasePage.waitForElementToBeClickable(BasePage.java:39)
@@ -359,8 +359,8 @@ Session ID: a787ccf799a0fef23b3346661a522d6a
         Build info: version: '4.41.0', revision: '9fc754f'
         System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
         Driver info: org.openqa.selenium.chrome.ChromeDriver
-        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56029}, goog:processID: 80532, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56029/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-        Session ID: a787ccf799a0fef23b3346661a522d6a
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\parsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64927}, goog:processID: 64760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64927/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: 340d530c626bf2b640b2e4ed39866889
         	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
         	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
         	at com.orangehrm.pages.BasePage.waitForElementToBeClickable(BasePage.java:39)
@@ -370,26 +370,26 @@ Session ID: a787ccf799a0fef23b3346661a522d6a
         	at âœ½.User navigates to My Info module(file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/Dashboard.feature:32)
 ]]></system-out>
   </testcase>
-  <testcase name="User is logged in to OrangeHRM application" classname="Verify user can logout from the application" time="4.836">
+  <testcase name="User is logged in to OrangeHRM application" classname="Verify user can logout from the application" time="5.341">
     <system-out><![CDATA[
 @smoke @logout
 Scenario: Verify user can logout from the application           # file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/Dashboard.feature:36
 ======== Starting Test Scenario ========
 Browser initialized successfully
 ]]></system-out>
-    <system-err><![CDATA[Apr 04, 2026 10:21:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 05, 2026 10:01:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="User clicks on user dropdown and logout" classname="Verify user can logout from the application" time="2.139">
+  <testcase name="User clicks on user dropdown and logout" classname="Verify user can logout from the application" time="1.845">
     <system-out><![CDATA[  âœ” Given User is logged in to OrangeHRM application            # com.orangehrm.stepdefinitions.DashboardSteps.userIsLoggedIn()
 ]]></system-out>
   </testcase>
-  <testcase name="User should be logged out and redirected to login page" classname="Verify user can logout from the application" time="0.016">
+  <testcase name="User should be logged out and redirected to login page" classname="Verify user can logout from the application" time="0.019">
     <system-out><![CDATA[  âœ” When User clicks on user dropdown and logout                # com.orangehrm.stepdefinitions.DashboardSteps.userLogsOut()
 ]]></system-out>
   </testcase>
-  <testcase name="User is on the OrangeHRM login page" classname="Verify user can login with valid credentials" time="3.256">
+  <testcase name="User is on the OrangeHRM login page" classname="Verify user can login with valid credentials" time="3.839">
     <system-out><![CDATA[  âœ” Then User should be logged out and redirected to login page # com.orangehrm.stepdefinitions.DashboardSteps.verifyUserIsLoggedOut()
 ======== Ending Test Scenario ========
 Browser closed successfully
@@ -399,23 +399,23 @@ Scenario: Verify user can login with valid credentials              # file:///G:
 ======== Starting Test Scenario ========
 Browser initialized successfully
 ]]></system-out>
-    <system-err><![CDATA[Apr 04, 2026 10:21:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 05, 2026 10:01:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="User enters valid username &quot;Admin&quot; and password &quot;admin123&quot;" classname="Verify user can login with valid credentials" time="0.374">
+  <testcase name="User enters valid username &quot;Admin&quot; and password &quot;admin123&quot;" classname="Verify user can login with valid credentials" time="0.499">
     <system-out><![CDATA[  âœ” Given User is on the OrangeHRM login page                       # com.orangehrm.stepdefinitions.LoginSteps.userIsOnLoginPage()
 ]]></system-out>
   </testcase>
-  <testcase name="User clicks the login button" classname="Verify user can login with valid credentials" time="0.126">
+  <testcase name="User clicks the login button" classname="Verify user can login with valid credentials" time="0.352">
     <system-out><![CDATA[  âœ” When User enters valid username "Admin" and password "admin123" # com.orangehrm.stepdefinitions.LoginSteps.userEntersValidCredentials(java.lang.String,java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="User should be redirected to the dashboard" classname="Verify user can login with valid credentials" time="1.55">
+  <testcase name="User should be redirected to the dashboard" classname="Verify user can login with valid credentials" time="1.795">
     <system-out><![CDATA[  âœ” And User clicks the login button                                # com.orangehrm.stepdefinitions.LoginSteps.userClicksLoginButton()
 ]]></system-out>
   </testcase>
-  <testcase name="Dashboard title should be displayed" classname="Verify user can login with valid credentials" time="0.007">
+  <testcase name="Dashboard title should be displayed" classname="Verify user can login with valid credentials" time="0.004">
     <failure message="Dashboard title is empty" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Dashboard title is empty
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -426,7 +426,7 @@ WARNING: Unable to find an exact match for CDP version 146, returning the closes
     <system-out><![CDATA[  âœ” Then User should be redirected to the dashboard                 # com.orangehrm.stepdefinitions.LoginSteps.verifyUserIsOnDashboard()
 ]]></system-out>
   </testcase>
-  <testcase name="Verify user can login with valid credentials" classname="OrangeHRM Login Tests" time="0.37">
+  <testcase name="Verify user can login with valid credentials" classname="OrangeHRM Login Tests" time="0.99">
     <failure message="Dashboard title is empty" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Dashboard title is empty
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -445,7 +445,7 @@ WARNING: Unable to find an exact match for CDP version 146, returning the closes
 Browser closed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Verify login fails with invalid username" classname="OrangeHRM Login Tests" time="0.342">
+  <testcase name="Verify login fails with invalid username" classname="OrangeHRM Login Tests" time="0.341">
     <failure message="Error message is not displayed" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error message is not displayed
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -457,7 +457,7 @@ Browser closed successfully
 Browser closed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Verify login fails with invalid password" classname="OrangeHRM Login Tests" time="0.419">
+  <testcase name="Verify login fails with invalid password" classname="OrangeHRM Login Tests" time="0.329">
     <failure message="Error message is not displayed" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error message is not displayed
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -469,7 +469,7 @@ Browser closed successfully
 Browser closed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="Verify login fails with invalid credentials" classname="OrangeHRM Login Tests" time="0.824">
+  <testcase name="Verify login fails with invalid credentials" classname="OrangeHRM Login Tests" time="0.391">
     <failure message="Error message is not displayed" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error message is not displayed
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -481,30 +481,30 @@ Browser closed successfully
 Browser closed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="User is on the OrangeHRM login page" classname="Verify user can login with different valid credentials" time="3.075">
+  <testcase name="User is on the OrangeHRM login page" classname="Verify user can login with different valid credentials" time="3.161">
     <system-out><![CDATA[
 @smoke @login_positive
 Scenario Outline: Verify user can login with different valid credentials # file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/login.feature:24
 ======== Starting Test Scenario ========
 Browser initialized successfully
 ]]></system-out>
-    <system-err><![CDATA[Apr 04, 2026 10:21:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 05, 2026 10:02:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="User enters valid username &quot;Admin&quot; and password &quot;admin123&quot;" classname="Verify user can login with different valid credentials" time="0.38">
+  <testcase name="User enters valid username &quot;Admin&quot; and password &quot;admin123&quot;" classname="Verify user can login with different valid credentials" time="0.554">
     <system-out><![CDATA[  âœ” Given User is on the OrangeHRM login page                            # com.orangehrm.stepdefinitions.LoginSteps.userIsOnLoginPage()
 ]]></system-out>
   </testcase>
-  <testcase name="User clicks the login button" classname="Verify user can login with different valid credentials" time="0.103">
+  <testcase name="User clicks the login button" classname="Verify user can login with different valid credentials" time="0.13">
     <system-out><![CDATA[  âœ” When User enters valid username "Admin" and password "admin123"      # com.orangehrm.stepdefinitions.LoginSteps.userEntersValidCredentials(java.lang.String,java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="User should be redirected to the dashboard" classname="Verify user can login with different valid credentials" time="1.532">
+  <testcase name="User should be redirected to the dashboard" classname="Verify user can login with different valid credentials" time="1.74">
     <system-out><![CDATA[  âœ” And User clicks the login button                                     # com.orangehrm.stepdefinitions.LoginSteps.userClicksLoginButton()
 ]]></system-out>
   </testcase>
-  <testcase name="User is on the OrangeHRM login page" classname="Verify login fails with invalid username" time="3.179">
+  <testcase name="User is on the OrangeHRM login page" classname="Verify login fails with invalid username" time="3.731">
     <system-out><![CDATA[  âœ” Then User should be redirected to the dashboard                      # com.orangehrm.stepdefinitions.LoginSteps.verifyUserIsOnDashboard()
 ======== Ending Test Scenario ========
 Browser closed successfully
@@ -514,19 +514,19 @@ Scenario: Verify login fails with invalid username                          # fi
 ======== Starting Test Scenario ========
 Browser initialized successfully
 ]]></system-out>
-    <system-err><![CDATA[Apr 04, 2026 10:21:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 05, 2026 10:02:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="User enters invalid username &quot;InvalidUser&quot; and password &quot;admin123&quot;" classname="Verify login fails with invalid username" time="0.395">
+  <testcase name="User enters invalid username &quot;InvalidUser&quot; and password &quot;admin123&quot;" classname="Verify login fails with invalid username" time="0.471">
     <system-out><![CDATA[  âœ” Given User is on the OrangeHRM login page                               # com.orangehrm.stepdefinitions.LoginSteps.userIsOnLoginPage()
 ]]></system-out>
   </testcase>
-  <testcase name="User clicks the login button" classname="Verify login fails with invalid username" time="0.11">
+  <testcase name="User clicks the login button" classname="Verify login fails with invalid username" time="0.862">
     <system-out><![CDATA[  âœ” When User enters invalid username "InvalidUser" and password "admin123" # com.orangehrm.stepdefinitions.LoginSteps.userEntersInvalidCredentials(java.lang.String,java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="An error message should be displayed" classname="Verify login fails with invalid username" time="0.695">
+  <testcase name="An error message should be displayed" classname="Verify login fails with invalid username" time="0.025">
     <failure message="Error message is not displayed" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error message is not displayed
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -547,26 +547,26 @@ WARNING: Unable to find an exact match for CDP version 146, returning the closes
         	at âœ½.An error message should be displayed(file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/login.feature:30)
 ]]></system-out>
   </testcase>
-  <testcase name="User is on the OrangeHRM login page" classname="Verify login fails with invalid password" time="3.4">
+  <testcase name="User is on the OrangeHRM login page" classname="Verify login fails with invalid password" time="3.583">
     <system-out><![CDATA[
 @regression @login_negative
 Scenario: Verify login fails with invalid password                         # file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/login.feature:34
 ======== Starting Test Scenario ========
 Browser initialized successfully
 ]]></system-out>
-    <system-err><![CDATA[Apr 04, 2026 10:21:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 05, 2026 10:02:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="User enters valid username &quot;Admin&quot; and password &quot;InvalidPassword&quot;" classname="Verify login fails with invalid password" time="0.349">
+  <testcase name="User enters valid username &quot;Admin&quot; and password &quot;InvalidPassword&quot;" classname="Verify login fails with invalid password" time="0.394">
     <system-out><![CDATA[  âœ” Given User is on the OrangeHRM login page                              # com.orangehrm.stepdefinitions.LoginSteps.userIsOnLoginPage()
 ]]></system-out>
   </testcase>
-  <testcase name="User clicks the login button" classname="Verify login fails with invalid password" time="0.128">
+  <testcase name="User clicks the login button" classname="Verify login fails with invalid password" time="0.12">
     <system-out><![CDATA[  âœ” When User enters valid username "Admin" and password "InvalidPassword" # com.orangehrm.stepdefinitions.LoginSteps.userEntersValidCredentials(java.lang.String,java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="An error message should be displayed" classname="Verify login fails with invalid password" time="0.944">
+  <testcase name="An error message should be displayed" classname="Verify login fails with invalid password" time="0.999">
     <failure message="Error message is not displayed" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error message is not displayed
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -587,26 +587,26 @@ WARNING: Unable to find an exact match for CDP version 146, returning the closes
         	at âœ½.An error message should be displayed(file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/login.feature:37)
 ]]></system-out>
   </testcase>
-  <testcase name="User is on the OrangeHRM login page" classname="Verify login fails with invalid credentials" time="3.946">
+  <testcase name="User is on the OrangeHRM login page" classname="Verify login fails with invalid credentials" time="4.323">
     <system-out><![CDATA[
 @regression @login_negative
 Scenario: Verify login fails with invalid credentials                              # file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/login.feature:41
 ======== Starting Test Scenario ========
 Browser initialized successfully
 ]]></system-out>
-    <system-err><![CDATA[Apr 04, 2026 10:21:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 05, 2026 10:02:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="User enters invalid username &quot;InvalidUser&quot; and password &quot;InvalidPassword&quot;" classname="Verify login fails with invalid credentials" time="0.36">
+  <testcase name="User enters invalid username &quot;InvalidUser&quot; and password &quot;InvalidPassword&quot;" classname="Verify login fails with invalid credentials" time="1.013">
     <system-out><![CDATA[  âœ” Given User is on the OrangeHRM login page                                      # com.orangehrm.stepdefinitions.LoginSteps.userIsOnLoginPage()
 ]]></system-out>
   </testcase>
-  <testcase name="User clicks the login button" classname="Verify login fails with invalid credentials" time="0.264">
+  <testcase name="User clicks the login button" classname="Verify login fails with invalid credentials" time="0.266">
     <system-out><![CDATA[  âœ” When User enters invalid username "InvalidUser" and password "InvalidPassword" # com.orangehrm.stepdefinitions.LoginSteps.userEntersInvalidCredentials(java.lang.String,java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="An error message should be displayed" classname="Verify login fails with invalid credentials" time="1.031">
+  <testcase name="An error message should be displayed" classname="Verify login fails with invalid credentials" time="0.844">
     <failure message="Error message is not displayed" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error message is not displayed
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -627,18 +627,18 @@ WARNING: Unable to find an exact match for CDP version 146, returning the closes
         	at âœ½.An error message should be displayed(file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/login.feature:44)
 ]]></system-out>
   </testcase>
-  <testcase name="User is on the OrangeHRM login page" classname="Verify login page elements are displayed" time="3.288">
+  <testcase name="User is on the OrangeHRM login page" classname="Verify login page elements are displayed" time="3.647">
     <system-out><![CDATA[
 @regression @login_validation
 Scenario: Verify login page elements are displayed              # file:///G:/New%20folder/Workspace/OrangeHRMS/src/test/resources/features/login.feature:48
 ======== Starting Test Scenario ========
 Browser initialized successfully
 ]]></system-out>
-    <system-err><![CDATA[Apr 04, 2026 10:21:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 05, 2026 10:02:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="Login page should display username and password fields" classname="Verify login page elements are displayed" time="0.065">
+  <testcase name="Login page should display username and password fields" classname="Verify login page elements are displayed" time="0.127">
     <system-out><![CDATA[  âœ” Given User is on the OrangeHRM login page                   # com.orangehrm.stepdefinitions.LoginSteps.userIsOnLoginPage()
 ]]></system-out>
   </testcase>

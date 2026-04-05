@@ -19,7 +19,7 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//button[@type='submit']")
     private WebElement loginButton;
     
-    @FindBy(xpath = "//div[@class='oxd-alert oxd-alert--error']")
+    @FindBy(xpath = "//div[contains(@class, 'oxd-alert--error')]//p")
     private WebElement errorMessage;
     
     @FindBy(xpath = "//h5[@class='oxd-text oxd-text--h5 orangehrm-login-title']")

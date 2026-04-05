@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: runners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 0.263 s <<< FAILURE! - in runners.TestRunner
-OrangeHRM Dashboard Tests.Verify user can access dashboard after login  Time elapsed: 0.057 s  <<< ERROR!
+Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 0.275 s <<< FAILURE! - in runners.TestRunner
+OrangeHRM Dashboard Tests.Verify user can access dashboard after login  Time elapsed: 0.07 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is logged in to OrangeHRM application' and 1 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -19,7 +19,7 @@ public void dashboard_title_should_be_displayed() {
 }
 
 
-OrangeHRM Dashboard Tests.Verify user can navigate to Admin module  Time elapsed: 0.003 s  <<< ERROR!
+OrangeHRM Dashboard Tests.Verify user can navigate to Admin module  Time elapsed: 0.006 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is logged in to OrangeHRM application' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -41,7 +41,7 @@ public void user_should_be_on_admin_page() {
 }
 
 
-OrangeHRM Dashboard Tests.Verify user can navigate to PIM module  Time elapsed: 0.004 s  <<< ERROR!
+OrangeHRM Dashboard Tests.Verify user can navigate to PIM module  Time elapsed: 0.005 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is logged in to OrangeHRM application' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -63,7 +63,7 @@ public void user_should_be_on_pim_page() {
 }
 
 
-OrangeHRM Dashboard Tests.Verify user can navigate to Leave module  Time elapsed: 0.01 s  <<< ERROR!
+OrangeHRM Dashboard Tests.Verify user can navigate to Leave module  Time elapsed: 0.009 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is logged in to OrangeHRM application' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -85,7 +85,7 @@ public void user_should_be_on_leave_page() {
 }
 
 
-OrangeHRM Dashboard Tests.Verify user can navigate to My Info module  Time elapsed: 0.005 s  <<< ERROR!
+OrangeHRM Dashboard Tests.Verify user can navigate to My Info module  Time elapsed: 0.006 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is logged in to OrangeHRM application' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -129,7 +129,7 @@ public void user_should_be_logged_out_and_redirected_to_login_page() {
 }
 
 
-OrangeHRM Login Tests.Verify user can login with valid credentials  Time elapsed: 0.01 s  <<< ERROR!
+OrangeHRM Login Tests.Verify user can login with valid credentials  Time elapsed: 0.014 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is on the OrangeHRM login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -161,7 +161,7 @@ public void dashboard_title_should_be_displayed() {
 }
 
 
-OrangeHRM Login Tests.Verify user can login with different valid credentials  Time elapsed: 0.006 s  <<< ERROR!
+OrangeHRM Login Tests.Verify user can login with different valid credentials  Time elapsed: 0.004 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is on the OrangeHRM login page' and 3 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -188,7 +188,7 @@ public void user_should_be_redirected_to_the_dashboard() {
 }
 
 
-OrangeHRM Login Tests.Verify login fails with invalid username  Time elapsed: 0.009 s  <<< ERROR!
+OrangeHRM Login Tests.Verify login fails with invalid username  Time elapsed: 0.007 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is on the OrangeHRM login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -252,7 +252,7 @@ public void user_should_remain_on_the_login_page() {
 }
 
 
-OrangeHRM Login Tests.Verify login fails with invalid credentials  Time elapsed: 0.011 s  <<< ERROR!
+OrangeHRM Login Tests.Verify login fails with invalid credentials  Time elapsed: 0.007 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is on the OrangeHRM login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -284,7 +284,7 @@ public void user_should_remain_on_the_login_page() {
 }
 
 
-OrangeHRM Login Tests.Verify login page elements are displayed  Time elapsed: 0.005 s  <<< ERROR!
+OrangeHRM Login Tests.Verify login page elements are displayed  Time elapsed: 0.003 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'User is on the OrangeHRM login page' and 1 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:

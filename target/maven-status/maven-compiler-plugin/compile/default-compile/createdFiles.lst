@@ -1,6 +1,6 @@
+com\orangehrm\driver\DriverManager.class
 com\orangehrm\pages\BasePage.class
+com\orangehrm\config\Config.class
 com\orangehrm\pages\DashboardPage.class
 com\orangehrm\pages\LoginPage.class
 com\orangehrm\utilities\TestUtils.class
-com\orangehrm\driver\DriverManager.class
-com\orangehrm\config\Config.class

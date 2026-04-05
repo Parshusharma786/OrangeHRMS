@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
  */
 public class DashboardPage extends BasePage {
     
-    @FindBy(xpath = "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']")
+    @FindBy(xpath = "//h6[contains(text(), 'Dashboard')]")
     private WebElement dashboardTitle;
     
     @FindBy(xpath = "//span[@class='oxd-userdropdown-tab']")
@@ -19,22 +19,22 @@ public class DashboardPage extends BasePage {
     @FindBy(xpath = "//a[contains(text(), 'Logout')]")
     private WebElement logoutButton;
     
-    @FindBy(xpath = "//a[contains(text(), 'Admin')]")
+    @FindBy(xpath = "//span[contains(text(), 'Admin')]")
     private WebElement adminMenu;
     
-    @FindBy(xpath = "//a[contains(text(), 'PIM')]")
+    @FindBy(xpath = "//span[contains(text(), 'PIM')]")
     private WebElement pimMenu;
     
-    @FindBy(xpath = "//a[contains(text(), 'Leave')]")
+    @FindBy(xpath = "//span[contains(text(), 'Leave')]")
     private WebElement leaveMenu;
     
-    @FindBy(xpath = "//a[contains(text(), 'Time')]")
+    @FindBy(xpath = "//span[contains(text(), 'Time')]")
     private WebElement timeMenu;
     
-    @FindBy(xpath = "//a[contains(text(), 'Recruitment')]")
+    @FindBy(xpath = "//span[contains(text(), 'Recruitment')]")
     private WebElement recruitmentMenu;
     
-    @FindBy(xpath = "//a[contains(text(), 'My Info')]")
+    @FindBy(xpath = "//span[contains(text(), 'My Info')]")
     private WebElement myInfoMenu;
     
     @FindBy(xpath = "//span[@class='oxd-text oxd-text--span']")
